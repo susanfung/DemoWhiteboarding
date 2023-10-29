@@ -22,4 +22,12 @@ public class Order {
     public void setStatus(OrderStatus status) {
         this.status = status;
     }
+
+    public Customer getCustomer() {
+        return new Customer();
+    }
+
+    public void setCustomer(Object instance) {
+
+    }
 }
