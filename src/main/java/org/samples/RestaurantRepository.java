@@ -112,17 +112,13 @@ public class RestaurantRepository {
         return users;
     }
 
-    public void deleteRestaurant(Restaurant restaurant) {
-        List<Restaurant> restaurants = getAllRestaurantsFromDB();
+    public static void deleteRestaurant(Restaurant restaurant) {
+        List<Restaurant> restaurants = RestaurantDB.getAllRestaurantsFromDB();
 
         if (restaurants.contains(restaurant)) {
             restaurants.remove(restaurant);
         } else {
             new LogMessage("Delete not successful", "warning").outputMessage();
         }
-    }
-
-    private List<Restaurant> getAllRestaurantsFromDB() {
-        return new ArrayList<>();
     }
 }
