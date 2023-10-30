@@ -1,5 +1,9 @@
 package org.samples;
 
+import org.samples.orders.Order;
+
+import java.util.List;
+
 public class Courier {
     private int id;
     private String name;
@@ -24,5 +28,13 @@ public class Courier {
 
     public void setAssociatedRestaurant(Restaurant associatedRestaurant) {
         this.associatedRestaurant = associatedRestaurant;
+    }
+
+    public List<Order> getOrderHistory() {
+        return null;
+    }
+
+    public List<CustomerReview> getCourierReviews() {
+        return null;
     }
 }

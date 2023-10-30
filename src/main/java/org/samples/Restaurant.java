@@ -1,8 +1,11 @@
 package org.samples;
 
+import org.samples.orders.Order;
+
 import java.time.LocalDate;
 import java.time.ZoneId;
 import java.util.Date;
+import java.util.List;
 
 public class Restaurant {
     public Date getLastModified() {
@@ -13,5 +16,13 @@ public class Restaurant {
         Date oneYearAgoDate = Date.from(oneYearAgo.atStartOfDay(ZoneId.systemDefault()).toInstant());
 
         return oneYearAgoDate;
+    }
+
+    public List<Order> getOrderHistory() {
+        return null;
+    }
+
+    public List<RestaurantReview> getRestaurantReviews() {
+        return null;
     }
 }

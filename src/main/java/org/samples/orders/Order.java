@@ -1,4 +1,10 @@
-package org.samples;
+package org.samples.orders;
+
+import org.samples.Courier;
+import org.samples.Customer;
+import org.samples.Restaurant;
+
+import java.util.Date;
 
 public class Order {
     private int orderId;
@@ -29,5 +35,13 @@ public class Order {
 
     public void setCustomer(Object instance) {
 
+    }
+
+    public Date getOrderDate() {
+        return null;
+    }
+
+    public Courier getCourier() {
+        return null;
     }
 }

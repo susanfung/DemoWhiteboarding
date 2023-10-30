@@ -1,4 +1,6 @@
-package org.samples;
+package org.samples.orders;
+
+import org.samples.Restaurant;
 
 import java.util.ArrayList;
 import java.util.List;

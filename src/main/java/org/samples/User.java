@@ -1,5 +1,7 @@
 package org.samples;
 
+import org.samples.orders.Order;
+
 import java.util.ArrayList;
 import java.util.List;
 

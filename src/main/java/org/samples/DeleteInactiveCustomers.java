@@ -1,5 +1,8 @@
 package org.samples;
 
+import org.samples.orders.Order;
+import org.samples.orders.OrderDB;
+
 import java.util.List;
 
 public class DeleteInactiveCustomers {

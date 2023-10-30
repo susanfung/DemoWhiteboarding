@@ -1,5 +1,8 @@
 package org.samples;
 
+import org.samples.orders.Order;
+import org.samples.orders.OrderStatus;
+
 import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
