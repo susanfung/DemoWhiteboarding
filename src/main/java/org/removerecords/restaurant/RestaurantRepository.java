@@ -1,5 +1,9 @@
-package org.removerecords;
+package org.removerecords.restaurant;
 
+import org.removerecords.LogMessage;
+import org.removerecords.Reference;
+import org.removerecords.User;
+import org.removerecords.courier.Courier;
 import org.removerecords.orders.Order;
 import org.removerecords.orders.OrderStatus;
 

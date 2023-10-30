@@ -1,4 +1,4 @@
-package org.removerecords;
+package org.removerecords.restaurant;
 
 public class DeleteInactiveRestaurantsApi {
     public void deleteInactiveRestaurantsApi() {

@@ -1,8 +1,8 @@
 package org.removerecords.orders;
 
-import org.removerecords.Courier;
-import org.removerecords.Customer;
-import org.removerecords.Restaurant;
+import org.removerecords.courier.Courier;
+import org.removerecords.customer.Customer;
+import org.removerecords.restaurant.Restaurant;
 
 import java.util.Date;
 

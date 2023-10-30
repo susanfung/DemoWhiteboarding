@@ -1,5 +1,7 @@
-package org.removerecords;
+package org.removerecords.courier;
 
+import org.removerecords.customer.CustomerReview;
+import org.removerecords.restaurant.Restaurant;
 import org.removerecords.orders.Order;
 
 import java.util.List;

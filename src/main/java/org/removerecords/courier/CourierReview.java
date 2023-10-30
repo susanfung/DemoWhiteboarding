@@ -1,6 +1,8 @@
-package org.removerecords;
+package org.removerecords.courier;
 
-public class RestaurantReview {
+import org.removerecords.customer.Customer;
+
+public class CourierReview {
     public Customer getCustomer() {
         return null;
     }

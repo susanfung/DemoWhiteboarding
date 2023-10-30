@@ -1,4 +1,4 @@
-package org.removerecords;
+package org.removerecords.customer;
 
 import org.removerecords.orders.Order;
 

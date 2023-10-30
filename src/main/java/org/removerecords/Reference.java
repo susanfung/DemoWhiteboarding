@@ -1,5 +1,7 @@
 package org.removerecords;
 
+import org.removerecords.restaurant.Restaurant;
+
 public class Reference {
     private Restaurant restaurant;
 

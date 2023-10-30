@@ -1,4 +1,4 @@
-package org.removerecords;
+package org.removerecords.restaurant;
 
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;

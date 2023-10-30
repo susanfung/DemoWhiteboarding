@@ -1,4 +1,4 @@
-package org.removerecords;
+package org.removerecords.restaurant;
 
 public class DeleteInactiveRestaurants {
     private final int daysInactive;

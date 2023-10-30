@@ -1,4 +1,4 @@
-package org.removerecords;
+package org.removerecords.restaurant;
 
 import java.util.ArrayList;
 import java.util.List;

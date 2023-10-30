@@ -1,4 +1,4 @@
-package org.removerecords;
+package org.removerecords.restaurant;
 
 import org.removerecords.orders.Order;
 

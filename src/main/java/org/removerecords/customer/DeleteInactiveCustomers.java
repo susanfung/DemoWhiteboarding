@@ -1,5 +1,10 @@
-package org.removerecords;
+package org.removerecords.customer;
 
+import org.removerecords.LogMessage;
+import org.removerecords.restaurant.RestaurantReview;
+import org.removerecords.restaurant.RestaurantReviewDB;
+import org.removerecords.courier.CourierReview;
+import org.removerecords.courier.CourierReviewDB;
 import org.removerecords.orders.Order;
 import org.removerecords.orders.OrderDB;
 

@@ -1,6 +1,6 @@
 package org.removerecords.orders;
 
-import org.removerecords.Restaurant;
+import org.removerecords.restaurant.Restaurant;
 
 import java.util.ArrayList;
 import java.util.List;
