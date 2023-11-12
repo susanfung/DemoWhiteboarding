@@ -4,12 +4,12 @@ import com.spun.util.logger.SimpleLogger;
 import org.approvaltests.Approvals;
 import org.junit.jupiter.api.Test;
 
-class LogMessageTest {
+class ThrowLogMessageTest {
 
     @Test
     void outputMessage() {
         StringBuffer log = SimpleLogger.logToString();
-        new LogMessage("Cannot connect to service", "warning").outputMessage();
+        new ThrowLogMessage("Delete not successful", "warning").outputMessage();
         Approvals.verify(log);
     }
 }

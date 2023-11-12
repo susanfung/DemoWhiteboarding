@@ -1,6 +1,6 @@
 package org.removerecords.restaurant;
 
-import org.removerecords.LogMessage;
+import org.removerecords.ThrowLogMessage;
 import org.removerecords.Reference;
 import org.removerecords.User;
 import org.removerecords.courier.Courier;
@@ -12,7 +12,7 @@ import java.util.Date;
 import java.util.List;
 
 public class RestaurantRepository {
-    public void deleteInactive(int daysInactive) {
+    public void deleteInactiveRestaurants(int daysInactive) {
         List<Restaurant> inactiveRestaurants = getInactiveRestaurants(daysInactive);
 
         for (Restaurant restaurant : inactiveRestaurants) {
@@ -125,7 +125,7 @@ public class RestaurantRepository {
         if (restaurants.contains(restaurant)) {
             restaurants.remove(restaurant);
         } else {
-            new LogMessage("Delete not successful", "warning").outputMessage();
+            new ThrowLogMessage("Delete not successful", "warning").outputMessage();
         }
     }
 }

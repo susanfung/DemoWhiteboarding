@@ -9,7 +9,7 @@ public class DeleteInactiveRestaurants {
         this.restaurantRepository = restaurantRepository;
     }
 
-    public void deleteInactive() {
-        restaurantRepository.deleteInactive(daysInactive);
+    public void deleteInactiveRestaurants() {
+        restaurantRepository.deleteInactiveRestaurants(daysInactive);
     }
 }

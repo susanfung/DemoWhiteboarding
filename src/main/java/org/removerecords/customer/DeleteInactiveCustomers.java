@@ -1,6 +1,6 @@
 package org.removerecords.customer;
 
-import org.removerecords.LogMessage;
+import org.removerecords.ThrowLogMessage;
 import org.removerecords.restaurant.RestaurantReview;
 import org.removerecords.restaurant.RestaurantReviewDB;
 import org.removerecords.courier.CourierReview;
@@ -54,7 +54,7 @@ public class DeleteInactiveCustomers {
 
             CustomerDB.removeCustomerFromDB(customer);
         } else {
-            new LogMessage("Delete not successful", "warning").outputMessage();
+            new ThrowLogMessage("Delete not successful", "warning").outputMessage();
         }
     }
 }

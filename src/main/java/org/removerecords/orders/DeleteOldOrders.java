@@ -1,6 +1,6 @@
 package org.removerecords.orders;
 
-import org.removerecords.LogMessage;
+import org.removerecords.ThrowLogMessage;
 
 import java.util.Date;
 
@@ -23,7 +23,7 @@ public class DeleteOldOrders {
                 }
             }
         } catch (Exception e) {
-            new LogMessage("Delete not successful", "warning").outputMessage();
+            new ThrowLogMessage("Delete not successful", "warning").outputMessage();
         }
     }
 }

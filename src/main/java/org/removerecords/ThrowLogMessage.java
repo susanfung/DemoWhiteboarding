@@ -2,11 +2,11 @@ package org.removerecords;
 
 import com.spun.util.logger.SimpleLogger;
 
-public class LogMessage {
+public class ThrowLogMessage {
     private final String message;
     private final String level;
 
-    public LogMessage(String message, String level) {
+    public ThrowLogMessage(String message, String level) {
         this.message = message;
         this.level = level;
     }
